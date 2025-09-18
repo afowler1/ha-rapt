@@ -1,0 +1,14 @@
+{
+  "domain": "rapt",
+  "name": "RAPT Devices",
+  "version": "1.0.0",
+  "documentation": "https://github.com/afowler1/ha-rapt",
+  "issue_tracker": "https://github.com/afowler1/ha-rapt/issues",
+  "dependencies": [],
+  "codeowners": ["@afowler1"],
+  "requirements": ["aiohttp>=3.8.0"],
+  "config_flow": true,
+  "integration_type": "device",
+  "iot_class": "cloud_polling",
+  "icon": "mdi:beer"
+}

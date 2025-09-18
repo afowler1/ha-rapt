@@ -1,0 +1,4 @@
+discover_devices:
+  name: Discover RAPT Devices
+  description: Manually discover new RAPT temperature controllers and hydrometers
+  fields: {}
