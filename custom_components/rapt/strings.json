@@ -1,0 +1,23 @@
+{
+  "title": "RAPT Devices",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up RAPT Integration",
+        "description": "Enter your RAPT username and API secret to connect your RAPT devices.",
+        "data": {
+          "username": "Username",
+          "api_secret": "API Secret"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to RAPT servers. Please check your internet connection and try again.",
+      "invalid_auth": "Invalid username or API secret. Please check your credentials and try again.",
+      "unknown": "Unexpected error occurred. Please try again."
+    },
+    "abort": {
+      "already_configured": "This RAPT account is already configured."
+    }
+  }
+}
